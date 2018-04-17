@@ -1,0 +1,25 @@
+<template>
+  <view class="container">
+    
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Customize extends wepy.page {
+    config = {
+      navigationBarTitleText: '定制'
+    }
+
+    mixins = []
+
+    data = {
+      mynum: 20
+    }
+  }
+</script>
+
+<style lang="less">
+
+</style>

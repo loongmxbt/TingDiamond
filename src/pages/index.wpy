@@ -1,0 +1,28 @@
+<template>
+  <view class="container">
+    
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  
+  export default class Index extends wepy.page {
+    mixins = []
+    config = {
+      navigationBarTitleText: '发现'
+    }
+
+    components = {
+
+    }
+
+    data = {
+      searchText: 'book'
+    }
+  }
+</script>
+
+<style lang="less">
+
+</style>

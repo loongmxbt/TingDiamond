@@ -1,0 +1,15 @@
+{
+	"description": "Ting Diamond",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wx03422eb74a306074",
+	"projectname": "tingdiamond",
+	"miniprogramRoot": "./dist",
+	"condition": {}
+}

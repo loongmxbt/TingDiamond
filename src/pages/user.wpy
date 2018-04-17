@@ -1,0 +1,25 @@
+<template>
+  <view class="container">
+    
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class User extends wepy.page {
+    config = {
+      navigationBarTitleText: '我的'
+    }
+
+    mixins = []
+
+    data = {
+      mynum: 20
+    }
+  }
+</script>
+
+<style lang="less">
+
+</style>
